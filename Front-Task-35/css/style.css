@@ -12,8 +12,7 @@ a{
 }
 .header-all{
     display: flex;
-    
-}
+    }
 header .header-right {
     padding-top: 30px;
 width: 50%;
@@ -24,9 +23,7 @@ header .header-left{
 header .header-right a{
     color: #333;
     margin-left: 20px;
-    font-size: 20px;
- 
-    
+    font-size: 20px; 
 }
 header{
     position: fixed;
@@ -47,8 +44,7 @@ header img {
    text-align: center;
    position: relative;
    z-index: 1;
- 
-}
+ }
 #sec1 h1{
     font-size: 55px;
 }
@@ -81,31 +77,24 @@ width: 50%;
 }
 #sec2{
     background-color: rgb(247, 244, 244);
-    
-}
+    }
  #sec2 .second-left{
     display: flex;
     flex-wrap: wrap; 
-    
-}
-  
-#sec2 .second-right img {
+    }
+   #sec2 .second-right img {
     width:100%;
     height: 90%;
     padding: 2rem 2rem;
 }
- 
-#sec2 .second-left .box{
-    width: 50%;
-    
-    
+ #sec2 .second-left .box{
+    width: 50%; 
 }
 #sec2 .second-left .box i{
     color: #6168FF;
     font-size: 60px;
     margin-bottom: 15px;
-    
-}
+    }
 #sec2 .second-left .box h3{
 margin-bottom: 15px;
 }
@@ -120,6 +109,20 @@ color: #3d3a3a;
 }
 #sec3{
     text-align: center;
+    padding: 8rem 0 6rem;
+}
+#sec3 .third-text div{
+    color: #efefef;
+    font-size: 73px;
+    position: absolute;
+    z-index: -1;
+    left: 35%;
+    top: -20px;
+    font-weight: 900;
+}
+#sec3 .third-text{
+    position: relative;
+
 }
 #sec3 .third{
     display: flex;
@@ -154,7 +157,9 @@ color: #727272;
 }
 #sec3 .third-text h2{
     color: #6168FF;
-    margin-top: 20px;
+    margin-top: 25px;
+    font-size: 15px;
+    font-weight: 450;
 }
 #sec3 .third-text p{
     font-size: 30px;
@@ -164,14 +169,24 @@ padding: 8rem 4rem;
 }
 #sec4 .fourd-text{
     text-align: center;
+    position: relative;
 }
 #sec4 .fourd-text h2{
      color: #6168FF;
      font-size: 15px;
-     margin-bottom: 10px;
+ 
 }
 #sec4 .fourd-text p{
     font-size:30px ;
+}
+#sec4 .fourd-text div{
+    color: #efefef;
+    font-size: 73px;
+    position: absolute;
+    z-index: -1;
+    left: 37%;
+    top: -20px;
+    font-weight: 900;
 }
 #sec4 .fourd{
 display: flex;
@@ -208,22 +223,68 @@ font-size: 20px;
 #sec4 .box .right-text{
     width: 80%;
 }
+#sec5 .third-text div{
+    color: #efefef;
+    font-size: 73px;
+    position: absolute;
+    z-index: -1;
+    left: 37%;
+    top: -20px;
+    font-weight: 900; 
+}
+ #sec5 .third-text{
+     text-align: center;
+     position: relative;
+ }
+ #sec5 .third-text h2{
+    color: #6168FF;
+    margin-top: 25px;
+    font-size: 15px;
+    font-weight: 450;
+ }
+ #sec5 .third-text p{
+    font-size:30px ;
+    }
+ #sec5 .box .over-lay{
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(97, 104, 255, .8);;
+    transition: 1s;
+ }
+ #sec5 .box:hover .over-lay{
+    height: 100%;
+}
+#sec5 .box{
+    position: relative;
+    margin-top: 25px;
+}
 #sec5 .slider-all{
-     padding: 4rem 4rem;
+     padding: 4rem 8rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 #sec5 .slider-all .box{
-    width: 31%;
+    width: 32%;
 }
 #sec5 .slider-all img{
     width: 100%;
 }
-
 #sec6 {
     text-align: center;
     background-color: rgb(255,255,255);
+}
+#sec6 .sec6-text div{
+    color: #efefef;
+    font-size: 73px;
+    position: absolute;
+    z-index: -1;
+    left: 37%;
+    top: -20px;
+    font-weight: 900;
 }
 .box .button{
     position: absolute;
@@ -234,20 +295,16 @@ font-size: 20px;
      padding: 15px 15px;
      border-radius: 35px;
      transition: 0.5s;
- 
-}
+ }
 .box .button:hover{
     background-color: #212529;
-   
-}
+   }
 #sec6{
     padding: 6rem 0;
 }
-#sec6 .sec6-bottom{
+ #sec6 .sec6-bottom{
     display: flex;
-   
     justify-content: center;
-
 }
 #sec6 .sec6-text p{
     font-size: 25px;
@@ -271,12 +328,28 @@ font-size: 20px;
     margin-top: 15px;
 }
 #sec6 .sec6-bottom .box img{
-    width: 100%;
-    
+    width: 100%; 
 }
-#sec6 .sec6-text h2{
+#sec6 .sixend-text{
+ position: relative;
+ text-align: center;
+ z-index: 1;
+}
+#sec6 .sixend-text div{
+    color: #efefef;
+    font-size: 73px;
+    position: absolute;
+    z-index: -1;
+    left: 39%;
+    top: -20px;
+    font-weight: 900;  
+}
+#sec6 .sixend-text h2{
 color: #6168FF;
 font-size: 18px;
+}
+#sec6 .sixend-text p{
+    font-size: 30px;
 }
 .sec6-bottom .fa-star{
     color: #FEC42D;
@@ -299,12 +372,25 @@ display: flex;
 #sec8 .sec8-text{
     text-align: center;
 }
-#sec8 .sec8-text h2{
+#sec8 .eightend-text{
+text-align: center;
+position: relative;
+}
+#sec8 .eightend-text  h2{
     color:#6168FF ;
     margin-top:  6rem;
     font-size: 15px;
 }
-#sec8 .sec8-text p{
+#sec8 .eightend-text div{
+    color: #efefef;
+    font-size: 73px;
+    position: absolute;
+    z-index: -1;
+    left: 32%;
+    top: -20px;
+    font-weight: 900;
+}
+#sec8 .eightend-text p{
     font-size: 27px;
 }
 #sec8 .sec8-all .sec8-bottom .box{
@@ -317,9 +403,7 @@ display: flex;
     justify-content: space-between;
     padding: 10px 8rem;
     margin-top:  5rem;
-    
-}
-
+    }
 #sec8 .sec8-all .sec8-bottom .box img{
     width: 90px;
     height:90px;
@@ -352,9 +436,21 @@ display: flex;
     margin-top:  6rem;
     font-size: 15px;
 }
+#sec9 .sec9-text div{
+    color: #efefef;
+    font-size: 73px;
+    position: absolute;
+    z-index: -1;
+    left: 45%;
+    top: -20px;
+    font-weight: 900;
+}
+#sec9 .sec9-text{
+    position: relative;
+}
 #sec9 .sec9-text p{
     font-size: 27px;
-    margin-top: 8px;
+    margin-top: 4px;
 }
 #sec9 .sec9-bottom{
     display: flex;
@@ -365,11 +461,9 @@ display: flex;
 #sec9 .sec9-bottom .box{
     width: 30%;
     margin-left: 25px;
-    
-    border: 1px solid rgb(214, 212, 212);
+        border: 1px solid rgb(214, 212, 212);
     border-radius: 5px;
-    
-}
+    }
 #sec9 .sec9-bottom .box img{
     width: 100%;
 }
@@ -385,15 +479,23 @@ display: flex;
    color: #333;
    font-size: 20px;
 }
-.lastsec{
-    padding: 8rem 7rem;
+footer{
     background-color: #00102a;
     clip-path: polygon(0 29%, 100% 0, 100% 100%, 0% 100%);
+    padding-top: 8rem;
+ 
+}
+.lastsec{
+   
+    background-color: #00102a;
+    
 }
 footer .lastsec{
     display: flex;
     justify-content: space-between;
-
+    border-bottom: 1px solid rgb(247, 243, 243 , 0.3);
+    padding-top: 4rem;
+    padding: 0 5rem ;
 }
 footer .lastsec .box{
     width: 23%;
@@ -440,5 +542,23 @@ footer .lastsec .box button{
     padding: 20px 30px;
    border-radius: 5px;
    margin-top: 10px;
+}
+footer .lastsec-bottom {
+    text-align: center;
+    padding: 3rem;
+}
+footer .lastsec-bottom  p{
+    color: rgb(255, 255, 255);
+}
+footer .lastsec-bottom i{
+    color: #6168FF;
+    margin-left: 13px;
+    margin-top: 13px;
+    font-size: 18px;
+    transition: 0.6s;
    
+}
+footer .lastsec-bottom i:hover{
+    color: white;
+    cursor: pointer;
 }
